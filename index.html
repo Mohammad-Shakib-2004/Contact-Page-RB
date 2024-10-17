@@ -1,0 +1,46 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiry - Rong Berong</title>
+  <link rel="stylesheet" href="contact.css">
+  <script src="contact.js" defer></script>
+</head>
+<body>
+<div class="container">
+  <h1>Enquiry Form</h1>
+  <p>If you have any questions, feel free to contact us!</p>
+  <form id="enquiryForm">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message" rows="5" required></textarea>
+    </div>
+    <button type="submit">Send Enquiry</button>
+  </form>
+  <div class="contact-buttons">
+    <p>Or contact us directly:</p>
+    <a href="https://wa.me/8801615653397" target="_blank" class="whatsapp-button">
+      <img src="Photos/wpp.jpeg" alt="WhatsApp Icon">
+      WhatsApp Us
+    </a>
+    <a href="mailto:rongberong@gmail.com" class="email-button">
+      <img src="Photos/mail.jpg" alt="Email Icon">
+      Email Us
+    </a>
+    <p id="responseMessage" class="hidden"></p>
+  </div>
+</div>
+</body>
+</html>
